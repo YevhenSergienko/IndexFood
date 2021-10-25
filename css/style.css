@@ -108,7 +108,26 @@ body {
 }
 
 .slide-content {
-    max-width: 400px;
+    max-width: 500px;
+    position: relative;
+}
+
+.slider-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    position: absolute;
+    right: 46px;
+    bottom: 40px;
+    z-index: 9;
+}
+
+.slider-button {
+    cursor: pointer;
+}
+
+.swiper {
     position: relative;
 }
 
